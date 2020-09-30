@@ -1,0 +1,105 @@
+<% include ./website_partials/head %>
+<% include ./website_partials/header %>
+		<!-- breadcrumb area start -->
+		<section class="breadcrumb-area theme4">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>Payment Method</h1>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="products.html">Product</a></li>
+							<li class="active"><a href="cart.html">Payment</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section><!-- breadcrumb area end -->
+		<!-- cart area start -->
+		<section class="payment-method default-bg ptb-90">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+				        <div class="contact-form">
+							<div class="promo-code-form">
+								<h3>Do you have promo code?</h3>
+								<form action="#">
+									<div class="row">
+										<div class="col-xl-8 col-md-7">
+											<input type="text" placeholder="Enter Code"/>
+										</div>
+										<div class="col-xl-4 col-md-5">
+											<button class="aquaponic-btn">Continue</button>
+										</div>
+									</div>
+								</form>
+							</div>
+                            <h3>Or, Select your payment method</h3>
+				            <form action="#">
+				                <div class="row">
+                                    <div class="col-lg-12 mb-30">
+                                        <input type="radio" name="payment-method"/>
+										<img src="/assets/img/cart/1.jpg" alt="" />
+                                        <input type="radio" name="payment-method"/>
+										<img src="/assets/img/cart/2.jpg" alt="" />
+                                        <input type="radio" name="payment-method"/>
+										<img src="/assets/img/cart/3.jpg" alt="" />
+                                        <input type="radio" name="payment-method"/>
+										<img src="/assets/img/cart/4.jpg" alt="" />
+                                    </div>
+                                    <div class="col-lg-12 mb-15">
+										<div class="contact-container">
+											<label>Card number</label>
+											<input type="text" placeholder="1234 4567 8910 1234">
+											<i class="fa fa-lock"></i>
+										</div>
+                                    </div>
+                                    <div class="col-lg-12">
+										<label>Expire date</label>
+                                    </div>
+                                    <div class="col-md-6 mb-15">
+										<div class="select-container">
+											<select>
+												<option value="month">Month</option>
+												<option value="january">January</option>
+												<option value="march">March</option>
+											</select>
+										</div>
+                                    </div>
+                                    <div class="col-md-6 mb-15">
+										<div class="select-container">
+											<select>
+												<option value="year">Year</option>
+												<option value="2016">2016</option>
+												<option value="2015">2015</option>
+											</select>
+										</div>
+                                    </div>
+                                    <div class="col-md-6">
+										<div class="contact-container">
+											<label>Security code</label>
+											<input type="text" placeholder="123456">
+											<i class="fa fa-lock"></i>
+										</div>
+                                    </div>
+                                    <div class="col-md-6">
+										<label>Zip code</label>
+										<input type="text" placeholder="12345">
+                                    </div>
+                                    <div class="col-lg-12 mt-25">
+										<div class="contact-agreement">
+											<input type="checkbox" />
+											<p>Agree with our <span>payment policy</span></p>
+										</div>
+                                    </div>
+                                    <div class="col-lg-12 mt-25">
+                                        <button class="aquaponic-btn">Confirm Order</button>
+                                    </div>
+                                </div>
+				            </form>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</section><!-- cart area end -->
+		<% include ./website_partials/footer %>

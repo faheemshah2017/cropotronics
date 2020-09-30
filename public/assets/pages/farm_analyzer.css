@@ -1,0 +1,160 @@
+#export_last_year,#export_this_year,#export_percentage_change,#import_percentage_change,#import_this_year,#import_last_year,#_import_this_year,#_import_last_year,#_export_this_year,#_export_last_year{
+    font-size: 30px;
+}
+
+#amchartdiv {
+    width: 100%;
+    height: 400px;
+}
+
+#amchartdiv2 {
+    width: 100%;
+    height: 400px;
+}
+
+#top_10_dec_comm_imp_table td{
+    border: 1px solid #ddd;
+}
+#top_10_inc_comm_exp_table td{
+    border: 1px solid #ddd;
+}
+#top_10_dec_comm_exp_table td{
+    border: 1px solid #ddd;
+}#top_10_inc_comm_imp_table td{
+    border: 1px solid #ddd;
+}
+
+#top_10_inc_comm_exp_chart {
+    width: 100%;
+    height: 260px;
+}
+
+#top_10_inc_comm_imp_chart {
+    width: 100%;
+    height: 260px;
+}
+
+#top_10_dec_comm_exp_chart {
+    width: 100%;
+    height: 260px;
+}
+
+#top_10_dec_comm_imp_chart {
+    width: 100%;
+    height: 260px;
+}
+
+#chartdiv {
+    width: 100%;
+    height: 260px;
+}
+
+
+.main_body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+background-size: 1cm 1cm;
+  }
+
+  .ruler, .ruler li {
+margin: 0;
+padding: 0;
+list-style: none;
+display: inline-block;
+}
+
+.ruler, .ruler li {
+*display: inline;
+}
+.ruler {
+background: #ffffff;
+border-radius: 2px;
+border-top: 1px solid #000;
+color: #000;
+margin: 0;
+height: 2.2em;
+padding-right: 1cm;
+white-space: nowrap;
+}
+.ruler li {
+padding-left: 1cm;
+width: 1.638cm;
+margin: .64em -1em -.64em;
+text-align: center;
+position: relative;
+}
+.ruler li:before {
+content: '';
+position: absolute;
+border-left: 1px solid #000;
+height: .64em;
+top: -.64em;
+right: 1em;
+}
+
+
+#rule ol,
+#ruleli {
+/* removing the default list counters/markers: */
+list-style-type: none;
+}
+#rule ol {
+/* resetting the counter so every <ol>
+ has an independent count: */
+counter-reset: marker;
+}
+#rule li {
+height: 1cm;
+border-top: 1px solid #000;
+box-sizing: border-box;
+width: 1em;
+counter-increment: marker;
+position: relative;
+border-left: 1px solid #000;
+}
+#rule li:last-child {
+height: 0;
+}
+#rule li:first-child::after,
+#rule li:nth-child(5n)::after {
+position: absolute;
+top: -0.5em;
+left: 100%;
+height: 1em;
+line-height: 1em;
+width: 2em;
+text-align: center;
+}
+
+/* Make me pretty! */
+.main_body {
+font: 12px Ubuntu, Arial, sans-serif;
+}
+
+.menu_buttons{
+  margin-top: 2px;
+}
+
+.btn-white{
+  background-color: transparent;
+  padding: none;
+  border:none;
+}
+.btn-white:hover{
+  padding: none;
+  cursor: pointer;
+  /* transition-duration: 0.5s;
+  transform: translateY(5px); */
+  border: 2px solid #f4f4f4;
+
+}
+
+.details_div{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+

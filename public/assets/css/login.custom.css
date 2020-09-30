@@ -1,0 +1,29 @@
+.m-login.m-login--2.m-login-2--skin-3 .m-login__container .m-login__form .form-control {
+    color: #c1c1c1;
+    background: #13202d;
+}
+
+.m-login.m-login--2.m-login-2--skin-3 .m-login__container .m-login__form .form-control:focus {
+    color: #ffffff;
+}
+
+.p-l-0{
+    padding-left: 0px !important;
+  }
+  
+  .p-r-0{
+    padding-right: 0px !important;
+  }
+  
+  .p-r-1{
+    padding-right: 5px !important;
+  }
+  .p-l-1{
+    padding-left: 5px !important;
+  }
+
+  .div_form{
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+    border-radius: 5%;
+  }
